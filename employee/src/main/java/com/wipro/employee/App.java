@@ -9,6 +9,7 @@ import java.util.List;
 import com.wipro.dao.EmployeeService;
 import com.wipro.dao.EmployeeServiceImpl;
 import com.wipro.model.Employee;
+import com.wipro.model.EmployeeNameComparator;
 
 /**
  * Hello world!
@@ -37,6 +38,8 @@ public class App {
 
 		}
 		List<Employee> empList = service.getAllEmployeeDetails();
+		empList.sort(new EmployeeNameComparator());
+		
 		if (empList.isEmpty()) {
 			System.out.println("Employee List is Empty");
 		} else {
