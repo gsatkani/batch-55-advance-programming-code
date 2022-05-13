@@ -1,0 +1,49 @@
+  /* Element Selector */
+  
+  p {
+      color: green;
+  }
+  /* class selector */
+  
+  .firstH3 {
+      color: blue;
+  }
+  /* Id Selector */
+  
+  #secondH3 {
+      color: chartreuse;
+  }
+  
+  .header-container {
+      height: 15vh;
+      border: 2px solid red;
+      text-align: center;
+      font-size: 25Px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-color: aquamarine;
+      font-style: italic;
+      font-weight: 900;
+  }
+  
+  .main-container {
+      height: 373px;
+      border: 2px solid green;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+  }
+  
+  .footer-container {
+      background-color: cadetblue;
+      text-align: center;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 10vh;
+      border: 2px dashed red;
+  }
+  
+  .footer-container p {
+      color: black;
+  }

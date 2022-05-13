@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+.first {
+    border: 2px solid green;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.first h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.second {
+    border: 2px solid red;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px
+}
+
+.second h3 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.third {
+    border: 2px solid blue;
+}
+
+.third h3 {
+    font-family: 'Zen Loop', cursive;
+}
