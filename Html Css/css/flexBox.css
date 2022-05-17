@@ -1,0 +1,18 @@
+.first {
+    border: 2px solid red;
+}
+
+.second {
+    border: 2px solid green;
+}
+
+.third {
+    border: 2px solid blue;
+}
+
+.div-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
