@@ -11,10 +11,14 @@
     padding-top: 100px;
     padding-bottom: 20px;
 }
-/* Take A Break  for doubts Connect @9.00pm */  
+
+
+/* Take A Break  for doubts Connect @9.00pm */
+
 .first h3 {
     font-family: 'Montserrat', sans-serif;
 }
+
 .second {
     border: 2px solid red;
     margin-top: 100px;
@@ -22,12 +26,22 @@
     margin-left: 60px;
     margin-right: 60px
 }
+
 .second h3 {
     font-family: 'Oleo Script Swash Caps', cursive;
 }
+
 .third {
     border: 2px solid blue;
 }
+
 .third h3 {
     font-family: 'Zen Loop', cursive;
+}
+
+@media screen and (min-width:500px) and (max-width:800px) {
+    div {
+        background-color: yellow;
+        font-size: large;
+    }
 }
