@@ -1,0 +1,56 @@
+.nav-item:hover {
+    padding: 2px;
+    background-color: yellow;
+    border-radius: 2px;
+}
+
+.header-container {
+    position: relative;
+    border-bottom: 2px solid rgb(62, 157, 189);
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card:hover {
+    background-color: yellow;
+}
+
+.partner-container {
+    height: 60vh;
+    border-bottom: 2px solid rgb(62, 157, 189);
+}
+
+.course-container {
+    border-bottom: 2px solid rgb(62, 157, 189);
+}
+
+.btn i {
+    font-size: 20px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footter-container {
+    height: 12vh;
+    border-top: 2px solid white;
+    background-color: black;
+    text-align: center;
+}
+
+.footter-container p {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
