@@ -12,7 +12,6 @@ let areaRect = (length, bredth) => {
 shape(areaCircle, areaRect)
 
 function shape(circle, rectangle) { // circle /  rectangle are call back functions
-
     console.log("Area of Circle " + circle(12))
     console.log("Area of Reactangle " + rectangle(1.2, 4.5))
 
