@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 101,
+      "name": "Dell Latitiude",
+      "price": 35000.5,
+      "quantity": 10
+    },
+    {
+      "id": 102,
+      "name": "Sony Speakers",
+      "price": 15000.5,
+      "quantity": 50
+    },
+    {
+      "name": "IMac",
+      "price": "34000",
+      "quantity": "12",
+      "id": 103
+    },
+    {
+      "name": "Laptop",
+      "price": "34000",
+      "quantity": "100",
+      "id": 104
+    },
+    {
+      "name": "Table",
+      "price": "50",
+      "quantity": "50",
+      "id": 105
+    },
+    {
+      "name": "asas",
+      "price": "1212",
+      "quantity": "3434",
+      "id": 106
+    },
+    {
+      "name": "asasa",
+      "price": "34000",
+      "quantity": "12121212",
+      "id": 107
+    }
+  ]
+}

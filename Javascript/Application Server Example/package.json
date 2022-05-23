@@ -1,0 +1,11 @@
+{
+  "name": "application-server-example",
+  "version": "1.0.0",
+  "description": "Interact with Apllication Server (json-server)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "sathish G",
+  "license": "ISC"
+}
