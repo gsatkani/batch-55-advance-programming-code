@@ -2,6 +2,7 @@ const pname = document.getElementById('product-name')
 const price = document.getElementById('product-price')
 const quantity = document.getElementById('product-quantity')
 var sum = ''
+    // Callback / Promises 
 fetch('http://localhost:3000/products')
     .then(response => {
         // handle response

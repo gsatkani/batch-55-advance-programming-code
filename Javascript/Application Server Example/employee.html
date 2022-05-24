@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee App</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Employee App</h3>
+        <form onsubmit="addEmployee(event)">
+            Name: <input type="text" id="ename">
+            <hr> Salary : <input type="text" id="esalary">
+            <hr> Company : <input type="text" name="" id="ecompany">
+            <hr> <input type="submit" value="Add Employee">
+
+        </form>
+        <button onclick="listEmployee()">List</button>
+    </div>
+    <div id="employee-list">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Salary</th>
+                    <th>Company</th>
+                    <th>Action</th>
+                </tr>
+                <tbody id="list">
+
+                </tbody>
+            </thead>
+        </table>
+
+    </div>
+
+    <script src="./src/employee.js"></script>
+</body>
+
+</html>
