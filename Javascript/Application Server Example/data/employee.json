@@ -1,12 +1,6 @@
 {
   "employees": [
     {
-      "ename": "Siva K",
-      "esalary": "45000",
-      "ecompany": "TCS",
-      "id": 102
-    },
-    {
       "ename": "Sai Kiran",
       "esalary": "50000",
       "ecompany": "IBM",

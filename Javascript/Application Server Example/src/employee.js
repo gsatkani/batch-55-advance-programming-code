@@ -8,8 +8,7 @@ async function listEmployee() {
     alert("List Button Clicked")
     let response = await fetch(url, {
         method: 'GET'
-    }); // 20 sec to get data
-
+    });
     let data = await response.json();
     let sum = ''
     data.forEach(x => {
@@ -19,11 +18,20 @@ async function listEmployee() {
              <td>${x.esalary}</td>
              <td>${x.ecompany}</td>
              <td><button onclick=deleteById(${x.id})>Delete</button></td>
-         </tr>    
-        `
+         </tr> `
     });
     document.getElementById('list').innerHTML = sum
     console.log(data)
+}
+async function deleteById(id) {
+    let x = url + `/${id}`
+    let data = await fetch(x, {
+        method: 'DELETE'
+    })
+    console.log(data.json())
+    if (data != null) {
+        alert('Data Deleted with id ' + id)
+    }
 }
 async function addEmployee(event) {
     alert("Add Button Clicked")
@@ -41,13 +49,4 @@ async function addEmployee(event) {
         body: JSON.stringify(employee)
     });
     console.log(await data.json())
-}
-async function deleteById(id) {
-    let x = url + `/${id}`
-    let data = await fetch(x, {
-        method: 'DELETE'
-    })
-    if (data != null) {
-        alert('Data Deleted with id ' + id)
-    }
 }
